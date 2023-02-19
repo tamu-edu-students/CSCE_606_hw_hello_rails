@@ -17,3 +17,5 @@ test:
 production:
   <<: *default
   database: db/production
+  username: hw-hello-rails
+  password: <%= ENV['hw-hello-rails_DATABASE_PASSWORD'] %>
